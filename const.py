@@ -24,7 +24,7 @@ preparePatterns = {'ZMZ\-.*\-MP4|mUHD\-FRDS|FFansBD|邵氏|mp4ba|自由译者联
 
 patterns = [
     ('resolution', '([0-9]{3,4}[pi]|4k|[0-9]{3,4}[xX][0-9]{3,4}p?)'),
-    ('year', '([\[\(]?((?:19[0-9]|20[012])[0-9])[\]\)]?)'),
+    ('year', '([\[\(]?((?:19[0-9]|20[0-9])[0-9])[\]\)]?)'),
     ('season', '(s?([0-9]{1,2}))[ex](?=[\d+])'),
     ('episode', '((?<=[0-9])[ex]p?([0-9]{2})(?:[^0-9]|$))'),
     ('source', '(?:(?:PPV\.)?(?:HR[-])?[HP]DTV(?:Rip|\-HR)?|VOD|(?:HD)?CAM|(?:PPV )?WEB-?DL(?: DVDRip)?|(?:Cam|WEB|TV|B[DR]|F?HD|(?:HQ)?DVD)-?(?:Rip|HR)|Blu.?Ray|DvDScr|telesync|UHD|UltraHD|(?:BD)?Remux)'),
